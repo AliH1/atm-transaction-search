@@ -1,0 +1,43 @@
+export const data = [
+  {
+    date: "11/05/2020",
+    atmId: "TT1121",
+    customerPan: "430395XXXXXX5987",
+    description: [
+      "Card Inserted",
+      "PIN Verified, host approved",
+      "Withdrawal $1,000.00 \n Single Account ********9606 \n Previous Balance $4,545.79 \n Current Balance $3,545.79",
+      "Bills Dumped",
+      "⚠️ Sensor stuck",
+      "Auto-recovery",
+      "Auto-recovery",
+      "Auto-recovery",
+      "Transaction cancelled by customer",
+    ],
+    code: [
+      "11/05/20 21:35:43",
+      "Transaction #: 1397",
+      "Transaction #: 1398",
+      "00DR01:3F:46:05 11/05/20 21:35:43",
+      "004DR01:3A:36:41 11/05/20 21:35:43 EFC: AFD 0 00 00",
+      "00MNT :00:04 11/05/20 21:37:08",
+      "00MNT :00:08 11/05/20 21:37:08",
+      "00MNT :00:14 11/05/20 21:37:08",
+      "00MNT :00:14 11/05/20 21:37:08",
+    ],
+  },
+  {
+    date: "11/05/2020",
+    atmId: "TT1121",
+    customerPan: "430395XXXXXX7742",
+    description: ["Card Inserted", "Transaction cancelled by customer"],
+    code: ["11/05/20 21:38:43", "11/05/20 21:39:43"],
+  },
+  {
+    date: "11/05/2020",
+    atmId: "TT1121",
+    customerPan: "430395XXXXXX7472",
+    description: ["Card Inserted", "PIN Verified, host approved"],
+    code: ["11/05/20 21:40:31", "11/05/20 21:41:43"],
+  },
+];
